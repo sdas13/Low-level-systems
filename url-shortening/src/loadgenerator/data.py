@@ -13423,4 +13423,5 @@ names = [
     "oscillated",
     "oscillates",
     "oscillat",
+    "otoscope"
 ]
