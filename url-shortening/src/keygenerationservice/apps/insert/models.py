@@ -1,4 +1,4 @@
-from init_db import db
+from clients import db
 
 
 class OfflineKeys(db.Document):

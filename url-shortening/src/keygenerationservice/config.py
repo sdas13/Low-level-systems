@@ -7,6 +7,7 @@ class DevConfig(Config):
     DEBUG = True
     TESTING = True
     MONGODB_SETTINGS = {"db": "urlShorteningDB"}
+    REDIS_URL = "redis://localhost:6379/0"
 
 
 class ProdConfig(Config):
