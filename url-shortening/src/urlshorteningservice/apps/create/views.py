@@ -7,6 +7,7 @@ from apps.models import URL
 class CreateUrl(Resource):
     def post(self):
         url = request.json["url"]
+        print(url)
         document = OfflineKeys.objects.first()
         document.delete()
         hashedParam = document.key

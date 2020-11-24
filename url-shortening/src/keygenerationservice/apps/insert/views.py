@@ -5,7 +5,7 @@ from apps.insert import OfflineKeys
 def insert_keys():
 
     key_list = []
-    for i in range(10000):
+    for i in range(100000):
         rand_key = "".join(random.choices(string.ascii_letters + string.digits, k=6))
         key_list.append(OfflineKeys(key=rand_key))
 
