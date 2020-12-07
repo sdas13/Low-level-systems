@@ -1,1 +1,1 @@
-from .views import load_keys
+from .views import load_keys_into_cache
