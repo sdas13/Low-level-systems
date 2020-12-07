@@ -7,4 +7,4 @@ class FetchUrl(Resource):
     def get(self, key):
         hashedParam = key
         document = URL.objects(hashedParam=hashedParam).first()
-        return redirect(document.originalURL)
+        return document.originalURL
