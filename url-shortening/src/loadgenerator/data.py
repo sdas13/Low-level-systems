@@ -8,7 +8,6 @@ names = [
     "Colorado",
     "Connecticut",
     "District",
-    "ofColumbia",
     "Delaware",
     "Florida",
     "Georgia",
